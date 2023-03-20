@@ -39,7 +39,7 @@ div.nav-destra {
 div.icon>i {
     font-size: 25px;
     margin: 5px;
-
+    
     color: lightgray;
 }
 
@@ -144,7 +144,7 @@ div.ul {
 }
 
 div.ul p:nth-child(4) {
-    margin-right: 100px;
+    margin-right: 300px;
 }
 
 
