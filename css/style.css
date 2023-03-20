@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+div.container {
+    padding: 0 100px
+}
+
+div.navbar {
+    min-height: 60px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+
+
+}
+
+div.logo {
+    width: 200px;
+}
+
+div.logo>img {
+    width: 200px;
+}
+
+div.nav-destra {
+    display: flex;
+    width: 400px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.icon>i {
+    font-size: 25px;
+    margin: 5px;
+
+    color: lightgray;
+}
+
+div.iconuser {
+    font-size: 40px;
+    margin: 5px;
+}
+
+
+#resume {
+    width: 200px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding-left: 15px;
+
+}
+
+div.resume>span {
+    font-size: 20px;
+}
+
+div.contenuto {
+    display: flex;
+    align-items: center;
+}
+
+
+div.left {
+    width: 60%;
+    height: 200vh;
+
+    border-right: 1px solid lightgrey;
+}
+
+div.right {
+    width: 40%;
+    height: 200vh
+}
+
+
+
+div.following {
+    height: 35px;
+    display: flex;
+    width: 90%;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    margin-top: 80px;
+}
+
+div.following span {
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+div.following span:first-child {
+    color: lightgray;
+}
+
+div.article {
+    margin-top: 30px;
+    display: flex;
+    width: 90%;
+    height: 200px;
+
+}
+
+div.article img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.image {
+    width: 250px;
+    height: 150px;
+}
+
+div.testo i {
+    margin-right: 10px;
+}
+
+div.testo h3 {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+div.testo p {
+    color: gray;
+    margin-bottom: 10px;
+}
+.nomeautore {font-size: 18px;}
+
+.in {color: gray;}
+
+div.ul {
+
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+div.ul p:nth-child(4) {
+    margin-right: 100px;
+}
+
+
+
+div.twitter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 300px;
+    border-bottom: 1px solid lightgray;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+div.logotwitter {
+    display: flex;
+    justify-content: center;
+}
+
+.logomedium {
+    width: 60px;
+    height: 60px;
+}
+
+.fa-plus {
+    font-size: 40px;
+    color: gray;
+    margin-top: 5px;
+}
+
+div.testotwitter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+div.testotwitter p {
+    color: gray;
+    font-size: 25px;
+    text-align: center;
+}
+
+div.buttontwitter {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button img {
+    width: 30px;
+}
+
+.later {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.topics {
+    margin-top: 60px;
+    margin-left: 50px;
+
+}
+
+.containbuttontopics {
+    margin-top: 20px;
+    display: flex;
+
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.buttontopics {
+    height: 50px;
+    width: 140px;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttontopics:last-child {height: 50px;
+    width: 60px;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.buttontopics span {
+    align-items: center;
+}
+
+.follow {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.userfollow {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.followbuttonwho {
+    height: 50px;
+    width: 140px;
+    background-color: lightgray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.userfollow i {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.userfollow p {
+    margin-right: 180px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.userfollow p span {
+    color: gray;
+    font-size: 12px;
+    margin-top: 15px;
+
+}
+
+.userfollow .buttontopics {
+    align-content: center;
+}
+
+.contrecently {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.contrecently h3 {
+    margin-top: 10px;
+}
+
+.contrecently span:nth-child(3) {
+    color: gray;
+    margin-top: 10px;
+}
+
+.see {
+    color: green;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.help {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.help p {
+    color: gray;
+    font-weight: bold;
+}
+
+.pointer {
+    cursor: pointer;
+}
+.fa-circle-user {color:#4E8076;}
+.fa-star {color: gray; font-size: 13px; margin-left: 10px;}
