@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+body{font-family: 'Roboto', sans-serif;}
 div.container {
     padding: 0 100px
 }
@@ -64,30 +64,26 @@ div.resume>span {
 
 div.contenuto {
     display: flex;
-    align-items: center;
+    
 }
 
 
 div.left {
     width: 60%;
-    height: 200vh;
-
     border-right: 1px solid lightgrey;
 }
 
 div.right {
     width: 40%;
-    height: 200vh
+    
 }
 
 
 
 div.following {
     height: 35px;
-    display: flex;
     width: 90%;
     border-bottom: 1px solid lightgray;
-    align-items: center;
     margin-top: 80px;
 }
 
@@ -104,48 +100,31 @@ div.article {
     margin-top: 30px;
     display: flex;
     width: 90%;
-    height: 200px;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 div.article img {
-    width: 250px;
+    width: 200px;
     height: 150px;
     object-fit: cover;
 }
 
-.image {
-    width: 250px;
-    height: 150px;
-}
-
+div.nomeautore {margin-bottom: 10px;font-size: 18px;}
 div.testo i {
     margin-right: 10px;
 }
+.in {color: gray;}
 
-div.testo h3 {
-    margin: 10px 0;
-    font-size: 25px;
-}
-
+div.testo h2 {margin-bottom: 10px;}
+div.testo {width: 80%;}
 div.testo p {
     color: gray;
     margin-bottom: 10px;
 }
-.nomeautore {font-size: 18px;}
+ div.date {display: flex; color: gray; margin-top: 20px; justify-content: space-between;}
+ .point {position: relative; top: -5px; left: 3px;}
 
-.in {color: gray;}
-
-div.ul {
-
-    display: flex;
-    justify-content: space-between;
-    color: gray;
-}
-
-div.ul p:nth-child(4) {
-    margin-right: 300px;
-}
 
 
 
