@@ -121,8 +121,9 @@ div.testo p {
     color: gray;
     margin-bottom: 10px;
 }
- div.date {display: flex; color: gray; margin-top: 20px; justify-content: space-between;}
- .point {position: relative; top: -5px; left: 3px;}
+ div.date {display: flex; color: gray; margin-top: 20px; justify-content: space-between; font-size: 14px;}
+ .point {position: relative; bottom: 5px;}
+ div.date span:nth-child(5) {background-color:lightgray; border-radius: 8px; padding:  0 4px; }
 
 
 
@@ -208,15 +209,14 @@ a {
 .containbuttontopics {
     margin-top: 20px;
     display: flex;
-
     flex-wrap: wrap;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .buttontopics {
-    height: 50px;
-    width: 140px;
+    height:30px;
+    width: 100px;
     background-color: lightgray;
     border-radius: 20px;
     margin-right: 10px;
@@ -227,6 +227,7 @@ a {
 }
 .buttontopics:last-child {height: 50px;
     width: 60px;
+    height:30px ;
     background-color: lightgray;
     border-radius: 20px;
     margin-right: 10px;
@@ -244,20 +245,24 @@ a {
     margin-left: 50px;
     margin-top: 10px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 .userfollow {
 
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+   
+
 
 }
 
 .followbuttonwho {
-    height: 50px;
-    width: 140px;
-    background-color: lightgray;
+    height: 35px;
+    width: 80px;
+    border: 1px solid black;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -272,10 +277,8 @@ a {
 }
 
 .userfollow p {
-    margin-right: 180px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
+    margin-left:  15px;
+   
 
 
 
@@ -283,14 +286,11 @@ a {
 
 .userfollow p span {
     color: gray;
-    font-size: 12px;
+    
     margin-top: 15px;
 
 }
 
-.userfollow .buttontopics {
-    align-content: center;
-}
 
 .contrecently {
     margin-right: 50px;
@@ -299,7 +299,7 @@ a {
     margin-bottom: 30px;
 }
 
-.contrecently h3 {
+.contrecently h2 {
     margin-top: 10px;
 }
 
