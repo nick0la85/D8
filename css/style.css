@@ -3,12 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-body{font-family: 'Roboto', sans-serif;}
+/*font*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/*centrare pagint*/
 div.container {
     padding: 0 100px
 }
-
+/*dati navbar*/
 div.navbar {
     min-height: 60px;
     height: 100px;
@@ -19,7 +22,7 @@ div.navbar {
 
 
 }
-
+/*dimensione logo*/
 div.logo {
     width: 200px;
 }
@@ -27,7 +30,7 @@ div.logo {
 div.logo>img {
     width: 200px;
 }
-
+/* dati navdestra*/
 div.nav-destra {
     display: flex;
     width: 400px;
@@ -39,7 +42,7 @@ div.nav-destra {
 div.icon>i {
     font-size: 25px;
     margin: 5px;
-    
+
     color: lightgray;
 }
 
@@ -64,21 +67,26 @@ div.resume>span {
 
 div.contenuto {
     display: flex;
-    
+
 }
 
-
+/*impostazioni schermata sinista*/
 div.left {
     width: 60%;
     border-right: 1px solid lightgrey;
 }
-
+/*impostazioni schermata destra*/
 div.right {
-    width: 40%;   
+    width: 40%;
+}
+/*conetnitore destro*/
+div.contnetright {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
-
+/*impostazioni following*/
 div.following {
     height: 35px;
     width: 90%;
@@ -94,7 +102,7 @@ div.following span {
 div.following span:first-child {
     color: lightgray;
 }
-
+/*articoli parte sinistra*/
 div.article {
     margin-top: 30px;
     display: flex;
@@ -109,33 +117,61 @@ div.article img {
     object-fit: cover;
 }
 
-div.nomeautore {margin-bottom: 10px;font-size: 18px;}
+div.nomeautore {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
 div.testo i {
     margin-right: 10px;
 }
-.in {color: gray;}
 
-div.testo h2 {margin-bottom: 10px;}
-div.testo {width: 80%;}
+.in {
+    color: gray;
+}
+
+div.testo h2 {
+    margin-bottom: 10px;
+}
+
+div.testo {
+    width: 80%;
+}
+
 div.testo p {
     color: gray;
     margin-bottom: 10px;
 }
- div.date {display: flex; color: gray; margin-top: 20px; justify-content: space-between; font-size: 14px;}
- .point {position: relative; bottom: 5px;}
- div.date span:nth-child(5) {background-color:lightgray; border-radius: 8px; padding:  0 4px; }
+
+div.date {
+    display: flex;
+    color: gray;
+    margin-top: 20px;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.point {
+    position: relative;
+    bottom: 5px;
+}
+
+div.date span:nth-child(5) {
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 0 4px;
+}
 
 
 
-
+/*connessione twitter*/
 div.twitter {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
     height: 300px;
     border-bottom: 1px solid lightgray;
-    margin-left: 50px;
-    margin-right: 50px;
+
 
 }
 
@@ -199,10 +235,10 @@ a {
     justify-content: center;
     margin-top: 35px;
 }
-
+/*topics*/
 .topics {
     margin-top: 60px;
-    margin-left: 50px;
+
 
 }
 
@@ -210,12 +246,11 @@ a {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 50px;
-    margin-right: 50px;
+
 }
 
 .buttontopics {
-    height:30px;
+    height: 30px;
     width: 100px;
     background-color: lightgray;
     border-radius: 20px;
@@ -225,24 +260,26 @@ a {
     justify-content: center;
     align-items: center;
 }
-.buttontopics:last-child {height: 50px;
+
+.buttontopics:last-child {
+    height: 50px;
     width: 60px;
-    height:30px ;
+    height: 30px;
     background-color: lightgray;
     border-radius: 20px;
     margin-right: 10px;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+}
 
 .buttontopics span {
     align-items: center;
 }
-
+/*follow*/
 .follow {
-    margin-right: 50px;
-    margin-left: 50px;
+
     margin-top: 10px;
     margin-bottom: 20px;
     display: flex;
@@ -254,7 +291,7 @@ a {
 
     display: flex;
     align-items: center;
-   
+
 
 
 }
@@ -277,8 +314,8 @@ a {
 }
 
 .userfollow p {
-    margin-left:  15px;
-   
+    margin-left: 15px;
+
 
 
 
@@ -286,15 +323,11 @@ a {
 
 .userfollow p span {
     color: gray;
-    
     margin-top: 15px;
-
 }
 
-
+/*recently*/
 .contrecently {
-    margin-right: 50px;
-    margin-left: 50px;
     margin-top: 10px;
     margin-bottom: 30px;
 }
@@ -310,13 +343,11 @@ a {
 
 .see {
     color: green;
-    margin-left: 50px;
     margin-top: 20px;
 }
 
 .help {
-    margin-left: 50px;
-    margin-right: 50px;
+
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
@@ -326,9 +357,17 @@ a {
     color: gray;
     font-weight: bold;
 }
-
+/*pointer*/
 .pointer {
     cursor: pointer;
 }
-.fa-circle-user {color:#4E8076;}
-.fa-star {color: gray; font-size: 13px; margin-left: 10px;}
+
+.fa-circle-user {
+    color: #4E8076;
+}
+
+.fa-star {
+    color: gray;
+    font-size: 13px;
+    margin-left: 10px;
+}
