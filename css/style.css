@@ -97,10 +97,13 @@ div.following {
 div.following span {
     font-weight: bold;
     margin-right: 30px;
+    color: lightgray;
 }
 
-div.following span:first-child {
-    color: lightgray;
+
+
+div.following span:hover{color: black;
+    
 }
 /*articoli parte sinistra*/
 div.article {
